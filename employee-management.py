@@ -9,3 +9,7 @@ company_employees = {
 }
 #print company employees
 print("Company Employees: ", company_employees)
+
+#add new employee
+company_employees["Engineering"]["David"] = {"age": 27, "role": "Data Scientist"}
+print("Company Employees after adding David: ", company_employees)
